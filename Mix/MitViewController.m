@@ -7,6 +7,7 @@
 //
 
 #import "MitViewController.h"
+#import "NSObject+Swizz.h"
 
 @interface MitViewController ()
 
@@ -14,15 +15,27 @@
 
 @implementation MitViewController
 
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+
 }
 
 
-
+- (void)click:(UIButton *)btn{
+    
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 

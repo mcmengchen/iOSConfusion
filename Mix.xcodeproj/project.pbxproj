@@ -15,6 +15,7 @@
 		3D03885D1D2A374D003C32D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D03885B1D2A374D003C32D7 /* LaunchScreen.storyboard */; };
 		3D0388681D2A374D003C32D7 /* MixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0388671D2A374D003C32D7 /* MixTests.m */; };
 		3D0388731D2A374D003C32D7 /* MixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0388721D2A374D003C32D7 /* MixUITests.m */; };
+		3D0897181D2A8FEF00C0F84E /* NSObject+Swizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0897171D2A8FEF00C0F84E /* NSObject+Swizz.m */; };
 		3DAC78361D2A46A200EDBC11 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC78351D2A46A200EDBC11 /* confuse.sh */; };
 		3DAC78381D2A46B000EDBC11 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC78371D2A46B000EDBC11 /* func.list */; };
 		3DAC783B1D2A478A00EDBC11 /* MitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC783A1D2A478A00EDBC11 /* MitUtil.m */; };
@@ -57,6 +58,8 @@
 		3D0388741D2A374D003C32D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D0388801D2A3804003C32D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		3D0388841D2A38B0003C32D7 /* MitCodeConfusion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitCodeConfusion.h; sourceTree = "<group>"; };
+		3D0897161D2A8FEF00C0F84E /* NSObject+Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizz.h"; sourceTree = "<group>"; };
+		3D0897171D2A8FEF00C0F84E /* NSObject+Swizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizz.m"; sourceTree = "<group>"; };
 		3DAC78351D2A46A200EDBC11 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = confuse.sh; path = ../confuse.sh; sourceTree = "<group>"; };
 		3DAC78371D2A46B000EDBC11 /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = func.list; path = ../func.list; sourceTree = "<group>"; };
 		3DAC78391D2A478A00EDBC11 /* MitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitUtil.h; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				3DAC783D1D2A4A0F00EDBC11 /* MitViewController.m */,
 				3DAC78391D2A478A00EDBC11 /* MitUtil.h */,
 				3DAC783A1D2A478A00EDBC11 /* MitUtil.m */,
+				3D0897161D2A8FEF00C0F84E /* NSObject+Swizz.h */,
+				3D0897171D2A8FEF00C0F84E /* NSObject+Swizz.m */,
 				3D0388841D2A38B0003C32D7 /* MitCodeConfusion.h */,
 				3D0388561D2A374D003C32D7 /* Main.storyboard */,
 				3D0388591D2A374D003C32D7 /* Assets.xcassets */,
@@ -310,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAC783B1D2A478A00EDBC11 /* MitUtil.m in Sources */,
+				3D0897181D2A8FEF00C0F84E /* NSObject+Swizz.m in Sources */,
 				3DAC783E1D2A4A0F00EDBC11 /* MitViewController.m in Sources */,
 				3D0388551D2A374D003C32D7 /* ViewController.m in Sources */,
 				3D0388521D2A374D003C32D7 /* AppDelegate.m in Sources */,
